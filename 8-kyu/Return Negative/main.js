@@ -8,5 +8,10 @@ In this simple assignment you are given a number and have to make it negative. B
 
 // My solution
 
+const makeNegative = (num) => (num < 0 ? num : -num);
 
 // Other solutions
+
+function makeNegative(num) {
+  return -Math.abs(num);
+}

@@ -8,7 +8,9 @@ Very simple, given an integer or a floating-point number, find its opposite.
 
 // My solution
 
-
+function opposite(x) {
+  return -x;
+} 
 
 // Other solutions
 
@@ -16,11 +18,3 @@ function opposite(number) {
   let oppNum = 0 - number;
   return oppNum;
 }
-
-opposite(5);
-
-function opposite(x) {
-  return -x;
-} 
-
-opposite(-85);

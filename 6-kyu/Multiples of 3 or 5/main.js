@@ -24,6 +24,5 @@ function solution(number) {
   return sum;
 }
 
-solution(23);
-
 // Other solutions
+
